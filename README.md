@@ -1,4 +1,4 @@
-passportjs-example
+Google and Facebook Authentication
 ==================
 
-An example of use PassportJS to login with Twitter &amp; Facebook in Node.js
+An example of using passport module for logging with google and facebook using nodejs
