@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  if(user)
+    ul
+      li
+        img(src="#{user.photo}")
+      li welcome #{user.name}
+      li
+        a(href='logout') Leave
+  else
+    ul
+      li
+        a(href='auth/google') Login con Google
+      li
+        a(href='auth/facebook') Login con Facebook
